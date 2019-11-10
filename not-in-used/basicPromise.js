@@ -15,4 +15,8 @@ class BasicPromise {
     this.status = 'Rejected';
     this.msg = error;
   }
+
+  then(onFulfilled, onRejected) {
+    
+  }
 }
